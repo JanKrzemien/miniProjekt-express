@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css/styleRegister.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">main</a></li>
+                <li><a href="register">register</a></li>
+                <li><a href="login">login</a></li>
+                <li><a href="admin">admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <p>register page</p>
+    </section>
+    <section>
+        <form action="register" method="post">
+            </br></br>
+            <label for="nick">login: </label><input type="text" id="nick" required name="nick"></br></br>
+            <label for="haslo">haslo: </label><input type="password" id="haslo" required name="password"></br></br>
+            <label for="wiek">wiek: </label><select required name="wiek" id="wiek">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select></br></br>
+            <label for="uczen">uczeń?: </label><input type="checkbox" id="uczen" name="uczen" value="true"></br></br>
+            <label for="plec">płeć: </label> K <input type="radio" id="plec" required name="plec" value="K"> M <input
+                type="radio" id="plec" required name="plec" value="M"></br></br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
